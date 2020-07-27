@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.3.9)  27 JUL 2020 08:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.3.9)  27 JUL 2020 08:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1035,76 +1035,64 @@ File: images/close2.JPG Graphic file (type jpg)
 <use images/close2.JPG>
 Package pdftex.def Info: images/close2.JPG  used on input line 785.
 (pdftex.def)             Requested size: 232.19843pt x 130.49084pt.
-
-LaTeX Warning: Reference `fig: 3_6_9_precision' on page 12 undefined on input l
-ine 791.
-
-
-LaTeX Warning: Reference `fig: 3_6_9_recall' on page 12 undefined on input line
- 791.
-
-<images/3_6_9_precision.png, id=324, 987.2082pt x 484.9317pt>
+<images/3_6_9_precision.png, id=326, 987.2082pt x 484.9317pt>
 File: images/3_6_9_precision.png Graphic file (type png)
 <use images/3_6_9_precision.png>
 Package pdftex.def Info: images/3_6_9_precision.png  used on input line 793.
 (pdftex.def)             Requested size: 296.16475pt x 145.48062pt.
-<images/3_6_9_recall.png, id=325, 987.2082pt x 484.9317pt>
+<images/3_6_9_recall.png, id=327, 987.2082pt x 484.9317pt>
 File: images/3_6_9_recall.png Graphic file (type png)
 <use images/3_6_9_recall.png>
 Package pdftex.def Info: images/3_6_9_recall.png  used on input line 798.
 (pdftex.def)             Requested size: 296.16475pt x 145.48062pt.
-
-LaTeX Warning: Reference `fig good_hh_zoom' on page 12 undefined on input line 
-803.
-
-<images/good_hh.jpg, id=331, 3011.25pt x 1692.3225pt>
+<images/good_hh.jpg, id=334, 3011.25pt x 1692.3225pt>
 File: images/good_hh.jpg Graphic file (type jpg)
 <use images/good_hh.jpg>
 Package pdftex.def Info: images/good_hh.jpg  used on input line 805.
 (pdftex.def)             Requested size: 240.90492pt x 135.38857pt.
-<images/good_hh_zoom.jpg, id=332, 1105.12875pt x 782.17218pt>
+<images/good_hh_zoom.jpg, id=335, 1105.12875pt x 782.17218pt>
 File: images/good_hh_zoom.jpg Graphic file (type jpg)
 <use images/good_hh_zoom.jpg>
 Package pdftex.def Info: images/good_hh_zoom.jpg  used on input line 810.
 (pdftex.def)             Requested size: 221.02184pt x 156.43166pt.
-<images/good_hh_6m.jpg, id=333, 3011.25pt x 1692.3225pt>
+<images/good_hh_6m.jpg, id=336, 3011.25pt x 1692.3225pt>
 File: images/good_hh_6m.jpg Graphic file (type jpg)
 <use images/good_hh_6m.jpg>
 Package pdftex.def Info: images/good_hh_6m.jpg  used on input line 815.
 (pdftex.def)             Requested size: 240.90492pt x 135.38857pt.
-<images/good_hh_6m_zoom.jpg, id=334, 723.45282pt x 520.94624pt>
+<images/good_hh_6m_zoom.jpg, id=337, 723.45282pt x 520.94624pt>
 File: images/good_hh_6m_zoom.jpg Graphic file (type jpg)
 <use images/good_hh_6m_zoom.jpg>
 Package pdftex.def Info: images/good_hh_6m_zoom.jpg  used on input line 820.
 (pdftex.def)             Requested size: 217.03752pt x 156.28508pt.
-<images/bad_hh_9m.jpg, id=335, 3011.25pt x 1692.3225pt>
+<images/bad_hh_9m.jpg, id=338, 3011.25pt x 1692.3225pt>
 File: images/bad_hh_9m.jpg Graphic file (type jpg)
 <use images/bad_hh_9m.jpg>
 Package pdftex.def Info: images/bad_hh_9m.jpg  used on input line 825.
 (pdftex.def)             Requested size: 240.90492pt x 135.38857pt.
-<images/bad_hh_9m_zoom.jpg, id=336, 456.20438pt x 252.19218pt>
+<images/bad_hh_9m_zoom.jpg, id=339, 456.20438pt x 252.19218pt>
 File: images/bad_hh_9m_zoom.jpg Graphic file (type jpg)
 <use images/bad_hh_9m_zoom.jpg>
 Package pdftex.def Info: images/bad_hh_9m_zoom.jpg  used on input line 830.
 (pdftex.def)             Requested size: 182.4785pt x 100.87508pt.
 [12 <./images/validation_set.png> <./images/precision_recall_map.png>]
-<images/bad_mask_nose.jpg, id=353, 518.3365pt x 326.018pt>
+<images/bad_mask_nose.jpg, id=358, 518.3365pt x 326.018pt>
 File: images/bad_mask_nose.jpg Graphic file (type jpg)
 <use images/bad_mask_nose.jpg>
 Package pdftex.def Info: images/bad_mask_nose.jpg  used on input line 840.
 (pdftex.def)             Requested size: 155.50215pt x 97.80615pt.
-<images/bad_mask_mouth.jpg, id=354, 558.888pt x 374.5995pt>
+<images/bad_mask_mouth.jpg, id=359, 558.888pt x 374.5995pt>
 File: images/bad_mask_mouth.jpg Graphic file (type jpg)
 <use images/bad_mask_mouth.jpg>
 Package pdftex.def Info: images/bad_mask_mouth.jpg  used on input line 845.
 (pdftex.def)             Requested size: 167.66768pt x 112.3807pt.
-<images/bad_mask_nose_pred.jpg, id=357, 1295.84125pt x 815.045pt>
+<images/bad_mask_nose_pred.jpg, id=362, 1295.84125pt x 815.045pt>
 File: images/bad_mask_nose_pred.jpg Graphic file (type jpg)
 <use images/bad_mask_nose_pred.jpg>
 Package pdftex.def Info: images/bad_mask_nose_pred.jpg  used on input line 851.
 
 (pdftex.def)             Requested size: 220.2901pt x 138.55582pt.
-<images/bad_mask_mouth_pred.jpg, id=358, 1397.22pt x 936.49875pt>
+<images/bad_mask_mouth_pred.jpg, id=363, 1397.22pt x 936.49875pt>
 File: images/bad_mask_mouth_pred.jpg Graphic file (type jpg)
 <use images/bad_mask_mouth_pred.jpg>
 Package pdftex.def Info: images/bad_mask_mouth_pred.jpg  used on input line 856
@@ -1113,39 +1101,39 @@ Package pdftex.def Info: images/bad_mask_mouth_pred.jpg  used on input line 856
 
 Underfull \vbox (badness 5939) has occurred while \output is active []
 
-<images/bad_sv.jpg, id=360, 1606.0pt x 902.572pt>
+<images/bad_sv.jpg, id=365, 1606.0pt x 902.572pt>
 File: images/bad_sv.jpg Graphic file (type jpg)
 <use images/bad_sv.jpg>
 Package pdftex.def Info: images/bad_sv.jpg  used on input line 863.
 (pdftex.def)             Requested size: 224.83847pt x 126.3592pt.
-<images/bad_sv_predict_2.jpg, id=364, 2168.85281pt x 1289.56781pt>
+<images/bad_sv_predict_2.jpg, id=369, 2168.85281pt x 1289.56781pt>
 File: images/bad_sv_predict_2.jpg Graphic file (type jpg)
 <use images/bad_sv_predict_2.jpg>
 Package pdftex.def Info: images/bad_sv_predict_2.jpg  used on input line 869.
 (pdftex.def)             Requested size: 216.89798pt x 128.96432pt.
-<images/bad_sv_predict_3.jpg, id=365, 1037.37563pt x 647.41875pt>
+<images/bad_sv_predict_3.jpg, id=370, 1037.37563pt x 647.41875pt>
 File: images/bad_sv_predict_3.jpg Graphic file (type jpg)
 <use images/bad_sv_predict_3.jpg>
 Package pdftex.def Info: images/bad_sv_predict_3.jpg  used on input line 874.
 (pdftex.def)             Requested size: 217.8553pt x 135.96194pt.
-<images/bad_sv_predict_4.jpg, id=366, 2134.97626pt x 1159.33125pt>
+<images/bad_sv_predict_4.jpg, id=371, 2134.97626pt x 1159.33125pt>
 File: images/bad_sv_predict_4.jpg Graphic file (type jpg)
 <use images/bad_sv_predict_4.jpg>
 Package pdftex.def Info: images/bad_sv_predict_4.jpg  used on input line 879.
 (pdftex.def)             Requested size: 202.82484pt x 110.1376pt.
  [13 <./images/3m1.JPG> <./images/6m1.JPG> <./images/9m1.JPG> <./images/close1.
 JPG> <./images/close2.JPG> <./images/3_6_9_precision.png>]
-<images/obstacle.JPG, id=385, 1606.0pt x 902.572pt>
+<images/obstacle.JPG, id=390, 1606.0pt x 902.572pt>
 File: images/obstacle.JPG Graphic file (type jpg)
 <use images/obstacle.JPG>
 Package pdftex.def Info: images/obstacle.JPG  used on input line 887.
 (pdftex.def)             Requested size: 208.78732pt x 117.33847pt.
-<images/3_6_precision.png, id=388, 987.2082pt x 484.9317pt>
+<images/3_6_precision.png, id=393, 987.2082pt x 484.9317pt>
 File: images/3_6_precision.png Graphic file (type png)
 <use images/3_6_precision.png>
 Package pdftex.def Info: images/3_6_precision.png  used on input line 894.
 (pdftex.def)             Requested size: 296.16475pt x 145.48062pt.
-<images/3_6_recall.png, id=389, 987.2082pt x 484.9317pt>
+<images/3_6_recall.png, id=394, 987.2082pt x 484.9317pt>
 File: images/3_6_recall.png Graphic file (type png)
 <use images/3_6_recall.png>
 Package pdftex.def Info: images/3_6_recall.png  used on input line 899.
@@ -1190,10 +1178,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 923.
  ) 
 Here is how much of TeX's memory you used:
- 10931 strings out of 494007
- 166145 string characters out of 6166147
+ 10928 strings out of 494007
+ 166086 string characters out of 6166147
  268592 words of memory out of 5000000
- 14434 multiletter control sequences out of 15000+600000
+ 14431 multiletter control sequences out of 15000+600000
  43321 words of font info for 95 fonts, out of 8000000 for 9000
  286 hyphenation exceptions out of 8191
  36i,13n,39p,1631b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1216,10 +1204,10 @@ ve/2019/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2019/texmf-di
 st/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw
 /times/utmbi8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
 ><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (17 pages, 36833969 bytes).
+Output written on paper.pdf (17 pages, 36833921 bytes).
 PDF statistics:
- 517 PDF objects out of 1000 (max. 8388607)
- 402 compressed objects within 5 object streams
+ 520 PDF objects out of 1000 (max. 8388607)
+ 405 compressed objects within 5 object streams
  137 named destinations out of 1000 (max. 500000)
  444 words of extra memory for PDF output out of 10000 (max. 10000000)
 

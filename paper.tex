@@ -788,7 +788,7 @@ In addition, there will be a subject using a white cloth hat, similar to the whi
 \end{minipage}
 \end{figure}
 
-\emph{Result}: The precision graph in the figure \ref{fig: 3_6_9_precision} and recalling in the figure \ref{fig: 3_6_9_recall} shows that the model works best at a distance of $ 6 $ m. The precision and recall parameters of most classes at $ 6 $ m are superior to those at $ 3 $ m and $ 9 $ m. The high precision will help make the model's predictions at $ 6 $ m more accurate than at $ 3 $ m and $ 9 $ m. High recall indicates that the model is more sensitive and can detect more objects in a frame at a distance of $ 6 $ m. At class \emph{Not wearing a hardhat} there are fluctuations in performance parameters and the predicted result at the distance of $ 6 $ m is still not the best this may stem from the bounding boxes of the class \emph{Not wearing a hardhat} in the training data set has dimensions similar to the bounding boxes of objects of the same class at a distance of $ 9 $ m.
+\emph{Result}: The precision graph in the figure \ref{fig:3_6_9_precision} and recalling in the figure \ref{fig:3_6_9_recall} shows that the model works best at a distance of $ 6 $ m. The precision and recall parameters of most classes at $ 6 $ m are superior to those at $ 3 $ m and $ 9 $ m. The high precision will help make the model's predictions at $ 6 $ m more accurate than at $ 3 $ m and $ 9 $ m. High recall indicates that the model is more sensitive and can detect more objects in a frame at a distance of $ 6 $ m. At class \emph{Not wearing a hardhat} there are fluctuations in performance parameters and the predicted result at the distance of $ 6 $ m is still not the best this may stem from the bounding boxes of the class \emph{Not wearing a hardhat} in the training data set has dimensions similar to the bounding boxes of objects of the same class at a distance of $ 9 $ m.
 \begin{figure}[ht!]
 	\centerline{\includegraphics[scale=0.3]{images/3_6_9_precision.png}}
   	\caption{Precision of classes at distances of 3m - red, 6m - blue and 9m - black. Higher means better.}
@@ -800,7 +800,7 @@ In addition, there will be a subject using a white cloth hat, similar to the whi
   	\label{fig:3_6_9_recall}
 \end{figure}
 
-In addition, the model can distinguish well between white cloth hats and white protective hats at a distance of $ 3 $ m as shown in the pictures \ref{fig:good_hh} and \ref{fig good_hh_zoom}. At $ 6 $ m the model continues to be distinguished as shown in the \ref{fig:good_hh_6m} and \ref{fig:good_hh_6m_zoom}. The accuracy is reduced when the subject is away from the camera $ 9 $ m as shown in the pictures \ref{fig:good_hh_9m} and \ref {fig:good_hh_9m_zoom}.
+In addition, the model can distinguish well between white cloth hats and white protective hats at a distance of $ 3 $ m as shown in the figures \ref{fig:good_hh} and \ref{fig:good_hh_zoom}. At $ 6 $ m the model continues to be distinguished as shown in the \ref{fig:good_hh_6m} and \ref{fig:good_hh_6m_zoom}. The accuracy is reduced when the subject is away from the camera $ 9 $ m as shown in the figures \ref{fig:good_hh_9m} and \ref {fig:good_hh_9m_zoom}.
 \begin{figure}[ht]
 	\centerline{\includegraphics[scale=0.08]{images/good_hh.jpg}}
   	\caption{Prediction of the model at a distance of 3m.}
@@ -864,7 +864,7 @@ The use of protective equipment in the wrong way is as dangerous as the absence 
   	\caption{The two subjects (leftmost) wear safety vest at a distance of 3m.}
   	\label{fig:bad_sv}
 \end{figure}
-\emph{Result}: The model can distinguish cases of wearing protective clothing in most cases as shown in the pictures \ref{fig:bad_sv_pred_1} and \ref{fig:bad_sv_pred_2}. However, at some angles as shown in the figure \ref{fig:bad_sv_pred_3}, the model could not identify correctly. This may not be a major drawback because when identified in practice, the model will recognize continuously across multiple frames, so that cases of faulty wearing when omitted at this frame will be detected in other frames.
+\emph{Result}: The model can distinguish cases of wearing protective clothing in most cases as shown in the figures \ref{fig:bad_sv_pred_1} and \ref{fig:bad_sv_pred_2}. However, at some angles as shown in the figure \ref{fig:bad_sv_pred_3}, the model could not identify correctly. This may not be a major drawback because when identified in practice, the model will recognize continuously across multiple frames, so that cases of faulty wearing when omitted at this frame will be detected in other frames.
 \begin{figure}[ht]
 	\centerline{\includegraphics[scale=0.1]{images/bad_sv_predict_2.jpg}}
   	\caption{The good prediction with two subjects wearing the safety vests the wrong way at a distance of 3m.}
@@ -882,7 +882,7 @@ The use of protective equipment in the wrong way is as dangerous as the absence 
 \end{figure}
 
 \subsubsection{Testing the recognition ability of the model when the subject is behind obstacles}
-In this test, two subjects will be behind an obstacle: the iron door as shown in the image \ref{fig:obstacle}, the model's precision and recall parameters will be calculated based on the predicted result of the model. The photo on the pictures is at a distance of $ 3 $ m and $ 6 $ m.
+In this test, two subjects will be behind an obstacle: the iron door as shown in the image \ref{fig:obstacle}, the model's precision and recall parameters will be calculated based on the predicted result of the model. The photo on the figures is at a distance of $ 3 $ m and $ 6 $ m.
 \begin{figure}[ht]
 	\centerline{\includegraphics[scale=0.13]{images/obstacle.JPG}}
   	\caption{Two subjects stand behind obstacles at a distance of 3m.}
