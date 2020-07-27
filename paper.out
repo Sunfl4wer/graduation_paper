@@ -1,0 +1,26 @@
+\BOOKMARK [1][-]{section.1}{Problems in labor safety supervision and artificial intelligence application solutions}{}% 1
+\BOOKMARK [1][-]{section.2}{Theoretical basis of artificial neuron network and YOLOv3 model}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Artificial neural network}{section.2}% 3
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Loss function and the optimization problem of neural network}{subsection.2.1}% 4
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Optimize loss function with Gradient Descent}{subsection.2.1}% 5
+\BOOKMARK [3][-]{subsubsection.2.1.3}{Stop condition of the algorithm}{subsection.2.1}% 6
+\BOOKMARK [3][-]{subsubsection.2.1.4}{Using backpropagation to implement Gradient Descent algorithm in artificial neural network}{subsection.2.1}% 7
+\BOOKMARK [2][-]{subsection.2.2}{Convolutional neural network}{section.2}% 8
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Convolutional layer}{subsection.2.2}% 9
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Pooling layer}{subsection.2.2}% 10
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Fully connected layer}{subsection.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.3}{M\364 h\354nh YOLOv3}{section.2}% 12
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Unified Detection}{subsection.2.3}% 13
+\BOOKMARK [3][-]{subsubsection.2.3.2}{YOLOv3 architecture}{subsection.2.3}% 14
+\BOOKMARK [1][-]{section.3}{Building data sets, training and using YOLOv3 model for the problem of identifying personal protective equipment}{}% 15
+\BOOKMARK [2][-]{subsection.3.1}{Develop a data set for the problem of detecting personal protective equipment}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.2}{Training with darknet}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.3}{Use Python and a trained deep learning model to detect the use of personal protective equipment on camera or video}{section.3}% 18
+\BOOKMARK [1][-]{section.4}{evaluation}{}% 19
+\BOOKMARK [2][-]{subsubsection.4.0.1}{Model testing in real cases}{section.4}% 20
+\BOOKMARK [3][-]{subsubsection.4.0.2}{Investigate the precission and recall of the model when the distance from the camera to the subject changes}{subsubsection.4.0.1}% 21
+\BOOKMARK [3][-]{subsubsection.4.0.3}{Testing the model's ability to identify with cases of improper use of protective equipment}{subsubsection.4.0.1}% 22
+\BOOKMARK [3][-]{subsubsection.4.0.4}{Testing the recognition ability of the model when the subject is behind obstacles}{subsubsection.4.0.1}% 23
+\BOOKMARK [2][-]{subsection.4.1}{On the model's ability to identify the use of personal protective equipment}{section.4}% 24
+\BOOKMARK [2][-]{subsection.4.2}{Possible improvement}{section.4}% 25
+\BOOKMARK [1][-]{section*.46}{References}{}% 26

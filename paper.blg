@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: paper.aux
+The style file: ieeetr.bst
+Database file #1: references.bib
+Warning--entry type for "tnld:2019:gov" isn't style-file defined
+--line 1 of file references.bib
+Warning--entry type for "cnn:2020:standford" isn't style-file defined
+--line 62 of file references.bib
+Warning--entry type for "john:2020:hardhat" isn't style-file defined
+--line 90 of file references.bib
+Warning--entry type for "tzu:2018:labelimg" isn't style-file defined
+--line 107 of file references.bib
+Warning--entry type for "alexey:2020:darknet" isn't style-file defined
+--line 115 of file references.bib
+Warning--empty publisher in tuan:2019
+You've used 10 entries,
+            1876 wiz_defined-function locations,
+            516 strings with 4473 characters,
+and the built_in function-call counts, 1312 in all, are:
+= -- 110
+> -- 40
+< -- 0
++ -- 20
+- -- 10
+* -- 54
+:= -- 205
+add.period$ -- 12
+call.type$ -- 10
+change.case$ -- 8
+chr.to.int$ -- 0
+cite$ -- 11
+duplicate$ -- 65
+empty$ -- 181
+format.name$ -- 10
+if$ -- 323
+int.to.chr$ -- 0
+int.to.str$ -- 10
+missing$ -- 7
+newline$ -- 35
+num.names$ -- 10
+pop$ -- 60
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 24
+stack$ -- 0
+substring$ -- 0
+swap$ -- 5
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 10
+width$ -- 12
+write$ -- 78
+(There were 6 warnings)

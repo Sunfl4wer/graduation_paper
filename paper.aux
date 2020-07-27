@@ -1,0 +1,167 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{tnld:2019:gov}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Problems in labor safety supervision and artificial intelligence application solutions}{1}{section.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Data on labor accident situation in 2019.\relax }}{1}{table.1}\protected@file@percent }
+\newlabel{table:tnld_stats}{{I}{1}{Data on labor accident situation in 2019.\relax }{table.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces The main causes of fatal accidents. \relax }}{2}{table.2}\protected@file@percent }
+\newlabel{table:tnld_reason}{{II}{2}{The main causes of fatal accidents. \relax }{table.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Theoretical basis of artificial neuron network and YOLOv3 model}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-A}}Artificial neural network}{2}{subsection.2.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Simple neural network model with 3 hidden layers, 1 input layer and 1 output layer.\relax }}{2}{figure.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:nn}{{1}{2}{Simple neural network model with 3 hidden layers, 1 input layer and 1 output layer.\relax }{figure.caption.1}{}}
+\newlabel{ann_eq}{{1}{2}{Artificial neural network}{equation.2.1}{}}
+\citation{tiep:2017}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Mathematical model of the hidden layers of a artificial neural network.\relax }}{3}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:ann}{{2}{3}{Mathematical model of the hidden layers of a artificial neural network.\relax }{figure.caption.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {II-A}1}Loss function and the optimization problem of neural network}{3}{subsubsection.2.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {II-A}2}Optimize loss function with Gradient Descent}{3}{subsubsection.2.1.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces The loss function graph of multiple variables function and Gradient Descent process.\relax }}{3}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:3dgradient_descent}{{3}{3}{The loss function graph of multiple variables function and Gradient Descent process.\relax }{figure.caption.3}{}}
+\citation{tiep:2017}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {II-A}3}Stop condition of the algorithm}{4}{subsubsection.2.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {II-A}4}Using backpropagation to implement Gradient Descent algorithm in artificial neural network}{4}{subsubsection.2.1.4}\protected@file@percent }
+\citation{CNN:2020:Standford}
+\citation{tuan:2019}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-B}}Convolutional neural network}{5}{subsection.2.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces A simple convolutional neural network model. The image recognition layer (in red) is a three-dimensional layer with width and height that is the width and height of the input image, the value of depth is three corresponding to three color channels of red, green and blue. The layer of the convolutional neural network will transform a group of matrices into a group of other matrices. The outermost layer is the classification layer, which corresponds to a class scores vector.\relax }}{5}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:cnn}{{4}{5}{A simple convolutional neural network model. The image recognition layer (in red) is a three-dimensional layer with width and height that is the width and height of the input image, the value of depth is three corresponding to three color channels of red, green and blue. The layer of the convolutional neural network will transform a group of matrices into a group of other matrices. The outermost layer is the classification layer, which corresponds to a class scores vector.\relax }{figure.caption.4}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {II-B}1}Convolutional layer}{5}{subsubsection.2.2.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces The input image consists of three colors channels that is modeled as a tensor with the height and the width is the height and the width of the image, depth is three.\relax }}{5}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:image_convol_0}{{5}{5}{The input image consists of three colors channels that is modeled as a tensor with the height and the width is the height and the width of the image, depth is three.\relax }{figure.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Image after being passed through the input and converted into three-dimensional data will be included in the first convolution layer. A kernel of size $ 3 \times 3 \times 3 $ (top left corner) is sliding over the input image.\relax }}{5}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:image_convol_1}{{6}{5}{Image after being passed through the input and converted into three-dimensional data will be included in the first convolution layer. A kernel of size $ 3 \times 3 \times 3 $ (top left corner) is sliding over the input image.\relax }{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces A kernel of size $3 \times 3 \times 3$.\relax }}{5}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:kernel}{{7}{5}{A kernel of size $3 \times 3 \times 3$.\relax }{figure.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Example of a kernel operation on a location of an image in a convolutional layer.\relax }}{5}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:kernel_calculation}{{8}{5}{Example of a kernel operation on a location of an image in a convolutional layer.\relax }{figure.caption.8}{}}
+\citation{redmod:2016:yolo}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces A convolutional layer has $ k $ kernel with size $ 3 \times 3 \times 3 $, $ stride = 1 $, $ padding = 1 $. The input is a tensor of size $ h \times w \times d $, the output of the convolutional layer has the above parameters with the input provided is a tensor of size $ h \times w \times k $\relax }}{6}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:convol_layer_in_out}{{9}{6}{A convolutional layer has $ k $ kernel with size $ 3 \times 3 \times 3 $, $ stride = 1 $, $ padding = 1 $. The input is a tensor of size $ h \times w \times d $, the output of the convolutional layer has the above parameters with the input provided is a tensor of size $ h \times w \times k $\relax }{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {II-B}2}Pooling layer}{6}{subsubsection.2.2.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces On the left, the pooling layer with sliding window that returns the maximum of the values within the window region of size $ 2 \times 2, stride = 1, padding = 0 $. On the right, the pooling layer with sliding window that returns the average of the values within the window region of size $ 2 \times 2, stride = 2, padding = 0 $.\relax }}{6}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:pooling}{{10}{6}{On the left, the pooling layer with sliding window that returns the maximum of the values within the window region of size $ 2 \times 2, stride = 1, padding = 0 $. On the right, the pooling layer with sliding window that returns the average of the values within the window region of size $ 2 \times 2, stride = 2, padding = 0 $.\relax }{figure.caption.10}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {II-B}3}Fully connected layer}{6}{subsubsection.2.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-C}}M\IeC {\^o} h\IeC {\`\i }nh YOLOv3}{6}{subsection.2.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces The convolutional neural network consists of two convolutional layer, two pooling layers and a fully connected layer.\relax }}{6}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:cnn_simplified}{{11}{6}{The convolutional neural network consists of two convolutional layer, two pooling layers and a fully connected layer.\relax }{figure.caption.11}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {II-C}1}Unified Detection}{6}{subsubsection.2.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Image is divided into grid cell of size $ S \times S $.\relax }}{6}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:grid_cell}{{12}{6}{Image is divided into grid cell of size $ S \times S $.\relax }{figure.caption.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces The IOU calculation.\relax }}{6}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:iou}{{13}{6}{The IOU calculation.\relax }{figure.caption.13}{}}
+\citation{redmon:2018:yolov3}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces YOLO's bounding box prediction model.\relax }}{7}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:bounding_box_prediction}{{14}{7}{YOLO's bounding box prediction model.\relax }{figure.caption.14}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {II-C}2}YOLOv3 architecture}{7}{subsubsection.2.3.2}\protected@file@percent }
+\citation{john:2020:hardhat}
+\citation{jixiu:2019:automatic}
+\citation{tzu:2018:labelimg}
+\citation{alexey:2020:darknet}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Darknet-53 architecture.\relax }}{8}{figure.caption.16}\protected@file@percent }
+\newlabel{fig:yolov3_architechture}{{15}{8}{Darknet-53 architecture.\relax }{figure.caption.16}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces Compare the performance of Darknet-53 with other networks. Accuracy, Bn Ops - billions of oper-ations, BFLOP/s - billion floating point operations per second, v\IeC {\`a} FPS - frames per second. \relax }}{8}{table.3}\protected@file@percent }
+\newlabel{table:darknet-53_performance}{{III}{8}{Compare the performance of Darknet-53 with other networks. Accuracy, Bn Ops - billions of oper-ations, BFLOP/s - billion floating point operations per second, và FPS - frames per second. \relax }{table.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Building data sets, training and using YOLOv3 model for the problem of identifying personal protective equipment}{8}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-A}}Develop a data set for the problem of detecting personal protective equipment}{8}{subsection.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces (1) Hard hat, (2) Safety vest, (3) Mask\relax }}{8}{figure.caption.17}\protected@file@percent }
+\newlabel{fig:ppe}{{16}{8}{(1) Hard hat, (2) Safety vest, (3) Mask\relax }{figure.caption.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Desired output of the system.\relax }}{8}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:expected_output}{{17}{8}{Desired output of the system.\relax }{figure.caption.18}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-B}}Training with darknet}{8}{subsection.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces YOLO annotation format.\relax }}{9}{figure.caption.19}\protected@file@percent }
+\newlabel{fig:yolo_annotation}{{18}{9}{YOLO annotation format.\relax }{figure.caption.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Number of objects corresponding to each class. Wearing a hardhat: $27565$, Not wearing a hardhat: $45888$, Wearing a safety vest: $10264$, Not wearing a safety vest: $52996$, Wearing a mask:$12557$, Not wearing a mask: $46501$.\relax }}{9}{figure.caption.20}\protected@file@percent }
+\newlabel{fig:object_count}{{19}{9}{Number of objects corresponding to each class. Wearing a hardhat: $27565$, Not wearing a hardhat: $45888$, Wearing a safety vest: $10264$, Not wearing a safety vest: $52996$, Wearing a mask:$12557$, Not wearing a mask: $46501$.\relax }{figure.caption.20}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-C}}Use Python and a trained deep learning model to detect the use of personal protective equipment on camera or video}{10}{subsection.3.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Python flowchart diagram for detection on video or webcam.\relax }}{11}{figure.caption.21}\protected@file@percent }
+\newlabel{fig:flow_chart}{{20}{11}{Python flowchart diagram for detection on video or webcam.\relax }{figure.caption.21}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}evaluation}{11}{section.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Number of objects in the validation data set. Wearing a hardhat - $2113$, Not wearing a hardhat - $3313$, Wearing a safety vest - $814$, Not wearing a safety vest - $3900$, Wearing a mask - $887$, Not wearing a mask - $3492$.\relax }}{12}{figure.caption.22}\protected@file@percent }
+\newlabel{fig:validation_set}{{21}{12}{Number of objects in the validation data set. Wearing a hardhat - $2113$, Not wearing a hardhat - $3313$, Wearing a safety vest - $814$, Not wearing a safety vest - $3900$, Wearing a mask - $887$, Not wearing a mask - $3492$.\relax }{figure.caption.22}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces Precision - red, Recall - blue, Mean Average Precision - green. The parameters are calculated every 1000 iterations on the validation data set.\relax }}{12}{figure.caption.23}\protected@file@percent }
+\newlabel{fig:precision_recall_map}{{22}{12}{Precision - red, Recall - blue, Mean Average Precision - green. The parameters are calculated every 1000 iterations on the validation data set.\relax }{figure.caption.23}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {IV-}1}Model testing in real cases}{12}{subsubsection.4.0.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {IV-}2}Investigate the precission and recall of the model when the distance from the camera to the subject changes}{12}{subsubsection.4.0.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces The subjects stand at a distance of 3m from the camera.\relax }}{13}{figure.caption.24}\protected@file@percent }
+\newlabel{fig:3m}{{23}{13}{The subjects stand at a distance of 3m from the camera.\relax }{figure.caption.24}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces The subjects stand at a distance of 6m from the camera.\relax }}{13}{figure.caption.24}\protected@file@percent }
+\newlabel{fig:6m}{{24}{13}{The subjects stand at a distance of 6m from the camera.\relax }{figure.caption.24}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {25}{\ignorespaces The subjects stand at a distance of 9m from the camera.\relax }}{13}{figure.caption.24}\protected@file@percent }
+\newlabel{fig:9m}{{25}{13}{The subjects stand at a distance of 9m from the camera.\relax }{figure.caption.24}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {IV-}3}Testing the model's ability to identify with cases of improper use of protective equipment}{13}{subsubsection.4.0.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {26}{\ignorespaces One subject wearing a white cloth hat - left and one subject wearing a white hard hat - right. Direct shooting angle.\relax }}{13}{figure.caption.25}\protected@file@percent }
+\newlabel{fig:similar_white_hat_1}{{26}{13}{One subject wearing a white cloth hat - left and one subject wearing a white hard hat - right. Direct shooting angle.\relax }{figure.caption.25}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {27}{\ignorespaces One subject wearing a white cloth hat - left and one subject wearing a white hard hat - right. Angle taken from the left.\relax }}{13}{figure.caption.25}\protected@file@percent }
+\newlabel{fig:similar_white_hat_2}{{27}{13}{One subject wearing a white cloth hat - left and one subject wearing a white hard hat - right. Angle taken from the left.\relax }{figure.caption.25}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {28}{\ignorespaces Precision of classes at distances of 3m - red, 6m - blue and 9m - black. Higher means better.\relax }}{13}{figure.caption.26}\protected@file@percent }
+\newlabel{fig:3_6_9_precision}{{28}{13}{Precision of classes at distances of 3m - red, 6m - blue and 9m - black. Higher means better.\relax }{figure.caption.26}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {29}{\ignorespaces Recall of classes at distances of 3m - red, 6m - blue and 9m - black. Higher means better.\relax }}{14}{figure.caption.27}\protected@file@percent }
+\newlabel{fig:3_6_9_recall}{{29}{14}{Recall of classes at distances of 3m - red, 6m - blue and 9m - black. Higher means better.\relax }{figure.caption.27}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {30}{\ignorespaces Prediction of the model at a distance of 3m.\relax }}{14}{figure.caption.28}\protected@file@percent }
+\newlabel{fig:good_hh}{{30}{14}{Prediction of the model at a distance of 3m.\relax }{figure.caption.28}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {IV-}4}Testing the recognition ability of the model when the subject is behind obstacles}{14}{subsubsection.4.0.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}}On the model's ability to identify the use of personal protective equipment}{14}{subsection.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {31}{\ignorespaces The model can distinguish well between white cloth hats and white hard hats at a distance of 3m.\relax }}{14}{figure.caption.29}\protected@file@percent }
+\newlabel{fig:good_hh_zoom}{{31}{14}{The model can distinguish well between white cloth hats and white hard hats at a distance of 3m.\relax }{figure.caption.29}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {32}{\ignorespaces Prediction of the model at a distance of 6m.\relax }}{14}{figure.caption.30}\protected@file@percent }
+\newlabel{fig:good_hh_6m}{{32}{14}{Prediction of the model at a distance of 6m.\relax }{figure.caption.30}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}Possible improvement}{14}{subsection.4.2}\protected@file@percent }
+\bibdata{references}
+\bibcite{tnld:2019:gov}{1}
+\bibcite{tiep:2017}{2}
+\bibcite{CNN:2020:Standford}{3}
+\bibcite{tuan:2019}{4}
+\bibcite{redmod:2016:yolo}{5}
+\bibcite{redmon:2018:yolov3}{6}
+\bibcite{john:2020:hardhat}{7}
+\bibcite{jixiu:2019:automatic}{8}
+\bibcite{tzu:2018:labelimg}{9}
+\bibcite{alexey:2020:darknet}{10}
+\@writefile{lof}{\contentsline {figure}{\numberline {33}{\ignorespaces The model can distinguish well between white cloth hats and white hard hats at a distance of 6m.\relax }}{15}{figure.caption.31}\protected@file@percent }
+\newlabel{fig:good_hh_6m_zoom}{{33}{15}{The model can distinguish well between white cloth hats and white hard hats at a distance of 6m.\relax }{figure.caption.31}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {34}{\ignorespaces Prediction of the model at a distance of 9m.\relax }}{15}{figure.caption.32}\protected@file@percent }
+\newlabel{fig:good_hh_9m}{{34}{15}{Prediction of the model at a distance of 9m.\relax }{figure.caption.32}{}}
+\@writefile{toc}{\contentsline {section}{References}{15}{section*.46}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {35}{\ignorespaces The model cannot distinguish well between white cloth hats and white hard hats at a distance of 9m.\relax }}{15}{figure.caption.33}\protected@file@percent }
+\newlabel{fig:good_hh_9m_zoom}{{35}{15}{The model cannot distinguish well between white cloth hats and white hard hats at a distance of 9m.\relax }{figure.caption.33}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {36}{\ignorespaces The subject (left) wears a mask that does not cover his/her nose at a distance of 3m.\relax }}{15}{figure.caption.34}\protected@file@percent }
+\newlabel{fig:bad_mask_nose}{{36}{15}{The subject (left) wears a mask that does not cover his/her nose at a distance of 3m.\relax }{figure.caption.34}{}}
+\bibstyle{ieeetr}
+\@writefile{lof}{\contentsline {figure}{\numberline {37}{\ignorespaces The subject (left) wears a mask that does not cover his/her mouth at a distance of 3m.\relax }}{16}{figure.caption.35}\protected@file@percent }
+\newlabel{fig:bad_mask_mouth}{{37}{16}{The subject (left) wears a mask that does not cover his/her mouth at a distance of 3m.\relax }{figure.caption.35}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {38}{\ignorespaces The predicted results were not good for the subject (left) wearing a mask that did not cover his nose at a distance of 3m.\relax }}{16}{figure.caption.36}\protected@file@percent }
+\newlabel{fig:bad_mask_nose_pred}{{38}{16}{The predicted results were not good for the subject (left) wearing a mask that did not cover his nose at a distance of 3m.\relax }{figure.caption.36}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {39}{\ignorespaces Good predictive results for the subject (left) wearing a mask that does not cover the mouth at a distance of 3m.\relax }}{16}{figure.caption.37}\protected@file@percent }
+\newlabel{fig:bad_mask_mouth_pred}{{39}{16}{Good predictive results for the subject (left) wearing a mask that does not cover the mouth at a distance of 3m.\relax }{figure.caption.37}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {40}{\ignorespaces The two subjects (leftmost) wear safety vest at a distance of 3m.\relax }}{16}{figure.caption.38}\protected@file@percent }
+\newlabel{fig:bad_sv}{{40}{16}{The two subjects (leftmost) wear safety vest at a distance of 3m.\relax }{figure.caption.38}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {41}{\ignorespaces The good prediction with two subjects wearing the safety vests the wrong way at a distance of 3m.\relax }}{16}{figure.caption.39}\protected@file@percent }
+\newlabel{fig:bad_sv_pred_1}{{41}{16}{The good prediction with two subjects wearing the safety vests the wrong way at a distance of 3m.\relax }{figure.caption.39}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {42}{\ignorespaces The good prediction with two subjects wearing the safety vests the wrong way (other camera angles) at a distance of 3m.\relax }}{16}{figure.caption.40}\protected@file@percent }
+\newlabel{fig:bad_sv_pred_2}{{42}{16}{The good prediction with two subjects wearing the safety vests the wrong way (other camera angles) at a distance of 3m.\relax }{figure.caption.40}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {43}{\ignorespaces The bad prediction with two subjects wearing the safety vests the wrong way at a distance of 3m.\relax }}{16}{figure.caption.41}\protected@file@percent }
+\newlabel{fig:bad_sv_pred_3}{{43}{16}{The bad prediction with two subjects wearing the safety vests the wrong way at a distance of 3m.\relax }{figure.caption.41}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {44}{\ignorespaces Two subjects stand behind obstacles at a distance of 3m.\relax }}{16}{figure.caption.42}\protected@file@percent }
+\newlabel{fig:obstacle}{{44}{16}{Two subjects stand behind obstacles at a distance of 3m.\relax }{figure.caption.42}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {45}{\ignorespaces Precision of classes when subjects are behind obstacles and 3m away from the camera - red and 6m - blue.\relax }}{17}{figure.caption.43}\protected@file@percent }
+\newlabel{fig:3_6_precision}{{45}{17}{Precision of classes when subjects are behind obstacles and 3m away from the camera - red and 6m - blue.\relax }{figure.caption.43}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {46}{\ignorespaces Recall of classes when subjects are behind obstacles and 3m away from the camera - red and 6m - blue.\relax }}{17}{figure.caption.44}\protected@file@percent }
+\newlabel{fig:3_6_recall}{{46}{17}{Recall of classes when subjects are behind obstacles and 3m away from the camera - red and 6m - blue.\relax }{figure.caption.44}{}}

@@ -1,0 +1,40 @@
+\begin{thebibliography}{10}
+
+\bibitem{tnld:2019:gov}
+{The Ministry of Labour - Invalids and Social Affairs of Vietnam}, ``{Notice on
+  the situation of occupational accident in 2019},'' 2019.
+
+\bibitem{tiep:2017}
+T.~H. Vu, {\em Fundamentals of Machine Learning}.
+\newblock {Scientific \& Technical Publishing House}, 2020.
+
+\bibitem{CNN:2020:Standford}
+S.~University, ``Convolutional neural networks (cnns / convnets),'' 2020.
+
+\bibitem{tuan:2019}
+T.~T. Nguyen, {\em Fundamentals of Deep Learning}.
+\newblock 2019.
+
+\bibitem{redmod:2016:yolo}
+{Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi}, ``{You Only Look
+  Once: Unified, Real-Time Object Detection},'' {\em CVPR 2016}, 2016.
+
+\bibitem{redmon:2018:yolov3}
+{Joseph Redmon, Ali Farhadi}, ``{YOLOv3: An Incremental Improvement},'' {\em
+  Tech report}, 2018.
+
+\bibitem{john:2020:hardhat}
+J.~Syin, ``Hardhat and safety vest image for object detection,'' 2020.
+
+\bibitem{jixiu:2019:automatic}
+{Jixiu Wu, Nian Cai, Wenjie Chen, Huiheng Wang, Guotian Wang}, ``Automatic
+  detection of hardhats worn by construction personnel: A deep learning
+  approach and benchmark dataset,'' {\em Automation in Construction}, 2019.
+
+\bibitem{tzu:2018:labelimg}
+Tzutalin, ``Labelimg,'' 2018.
+
+\bibitem{alexey:2020:darknet}
+AlexeyAB, ``Darknet,'' 2020.
+
+\end{thebibliography}
